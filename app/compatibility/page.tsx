@@ -79,7 +79,7 @@ const Page: React.FC = () => {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="partnerName" className="block text-sm font-medium text-gray-700">Partner's Name:</label>
+            <label htmlFor="partnerName" className="block text-sm font-medium text-gray-700">Partner&rsquo;s Name:</label>
             <input
               id="partnerName"
               type="text"
