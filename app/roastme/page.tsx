@@ -48,6 +48,7 @@ const RoastMe: React.FC = () => {
             placeholder="Your Name"
             value={userInfo.name}
             onChange={handleInputChange}
+            required
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
           <input
@@ -56,6 +57,7 @@ const RoastMe: React.FC = () => {
             placeholder="Your Age"
             value={userInfo.age || ''}
             onChange={handleInputChange}
+            required
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
           <input
@@ -64,6 +66,7 @@ const RoastMe: React.FC = () => {
             placeholder="Your Job Title"
             value={userInfo.jobTitle}
             onChange={handleInputChange}
+            required
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
           <button
