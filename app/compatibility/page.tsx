@@ -79,11 +79,7 @@ const Page: React.FC = () => {
             />
           </div>
           <div className="mb-4">
-<<<<<<< HEAD
             <label htmlFor="partnerName" className="block text-sm font-medium text-gray-700">Partner&apos;s Name:</label>
-=======
-            <label htmlFor="partnerName" className="block text-sm font-medium text-gray-700">Partner&rsquo;s Name:</label>
->>>>>>> 49bb126ca02d1a4e4d0a8e3b34cadcd04fed2990
             <input
               id="partnerName"
               type="text"
@@ -105,11 +101,7 @@ const Page: React.FC = () => {
             />
           </div>
           <div className="mb-4">
-<<<<<<< HEAD
             <label htmlFor="partnerDob" className="block text-sm font-medium text-gray-700">Partner&apos;s Date of Birth:</label>
-=======
-            <label htmlFor="partnerDob" className="block text-sm font-medium text-gray-700">Partner&rsquo;s Date of Birth:</label>
->>>>>>> 49bb126ca02d1a4e4d0a8e3b34cadcd04fed2990
             <input
               id="partnerDob"
               type="date"
